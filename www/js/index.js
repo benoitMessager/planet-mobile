@@ -27,7 +27,6 @@ var app = {
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
         document.addEventListener('deviceready', this.onDeviceReady, false);
-        window.open('http://planet.manpowergroup.fr/?from=google', '_system');
     },
     // deviceready Event Handler
     //
@@ -35,6 +34,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        window.open('http://planet.manpowergroup.fr/?from=google', '_system');
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
