@@ -17,6 +17,6 @@
         Benoit Messager
     </author>
 
-    <gap:plugin name="org.apache.cordova.inappbrowser"/>
+    <gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
 
 </widget>
