@@ -35,6 +35,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
         window.open('http://planet.manpowergroup.fr/?from=google', '_system');
+        navigator.app.exitApp();
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
