@@ -34,5 +34,6 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         window.open('http://planet.manpowergroup.fr/?from=google', '_system');
+		app.exitApp();
     }
 };
