@@ -26,7 +26,7 @@ var app = {
     // Bind any events that are required on startup. Common events are:
     // 'load', 'deviceready', 'offline', and 'online'.
     bindEvents: function() {
-        document.addEventListener('deviceready', this.onDeviceReady, false);
+        //document.addEventListener('deviceready', this.onDeviceReady, false);
     },
     // deviceready Event Handler
     //
@@ -34,6 +34,13 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         window.open('http://planet.manpowergroup.fr/?from=google', '_system');
-		app.exitApp();
+    },
+
+    openPlanet: function() {
+        window.open('http://planet.manpowergroup.fr/?from=google', '_system');
+    },
+
+    openDrive: function() {
+        window.open('https://drive.google.com/drive/u/0/#my-drive', '_system');
     }
 };
