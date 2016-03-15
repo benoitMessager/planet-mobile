@@ -21,6 +21,4 @@
     <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
 
     <icon src="icon.png"/>
-
-    <android:excludeFromRecents>true</android:excludeFromRecents>
 </widget>
